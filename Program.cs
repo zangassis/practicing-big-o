@@ -6,7 +6,7 @@ int element = array[2];
 
 Console.WriteLine($"Element at index 2: {element}");
 
-// O(log n) - Logarithmic execution time
+// O(log n) - Logarithmic time complexity
 
 int BinarySearch(int[] arr, int target)
 {
@@ -36,7 +36,7 @@ if (result is not -1)
 else
     Console.WriteLine("Element not found in array");
 
-// O(n) - Linear execution time
+// O(n) - Linear time complexity
 
 int[] unorderedArray = { 3, 1, 6, 12, 16, 23, 38, 56, 72, 83 };
 int targetElement = 72;
@@ -60,7 +60,7 @@ if (resultIndex != -1)
 else
     Console.WriteLine("Element not found in the array");
 
-// O(n log n) - Log-linear running time
+// O(n log n) - Log-linear time complexity
 
 int[] originalArray = { 12, 4, 5, 6, 7, 3, 1, 15, 8, 9 };
 
@@ -118,7 +118,7 @@ void PrintArray(int[] arr)
     Console.WriteLine();
 }
 
-// O(n^2) - Quadratic execution time
+// O(n^2) - Quadratic time complexity
 
 int[] originalArray = { 64, 34, 25, 12, 22, 11, 90 };
         
